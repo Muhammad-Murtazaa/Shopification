@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/cart.css">
+    <title>Products - Shopification</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <h3 class="Logo"><img src="/images/shopping-cart.png"> Shopification</h3>
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="/templates/index.html">Home</a></li>
+                    <li><a href="/templates/product.html">Products</a></li>
+                    <li><a href="/templates/account.html">Accounts</a></li>
+                    
+                    <li><a href="/templates/contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+            <img src="/images/cart.png" width="30px" height="30px">
+            <img src="/images/menu.png" width="30px" height="30px" class="menu-icon" onclick="menutoggle()">
+        </div>
+    </div>
+
+    <!-- Cart Item Details -->
+
+    <div class="small-container cart-page">
+        <table>
+            <tr>
+                <th>Product</th>
+                <th>Quantity</th>
+                <th>Subtotal</th>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="/images/buy-1.jpg">
+                        <div>
+                            <p class="img-title">Red Printed T-Shirt</p>
+                            <small>Price: $18.00</small>
+                            <br>
+                            <br>
+                            <a href="">Remove</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>$18.00</td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="/images/buy-2.jpg">
+                        <div>
+                            <p class="img-title">Black soft-sole grippers</p>
+                            <small>Price: $50.00</small>
+                            <br>
+                            <br>
+                            <a href="">Remove</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>$50.00</td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="/images/buy-3.jpg">
+                        <div>
+                            <p class="img-title">Gray Track Trouser</p>
+                            <small>Price: $30.00</small>
+                            <br>
+                            <br>
+                            <a href="">Remove</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>$30.00</td>
+            </tr>
+        </table>
+
+        <div class="total-price">
+            <table>
+                <tr>
+                    <td>Subtotal</td>
+                    <td>$98.00</td>
+                </tr>
+                <tr>
+                    <td>Tax</td>
+                    <td>$35.50</td>
+                </tr>
+                <tr>
+                    <td><b>Total</b></td>
+                    <td><b>$133.50</b></td>
+                </tr>
+            </table>
+        </div>
+
+
+
+
+    </div>
+
+    <!-- Footer -->
+
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3 class="footer-heading">For Any QueryEmail at</h3>
+                    <br>
+                    <p class="email">m.murtaza01@hotmail.com</p>
+                </div>
+                <div class="footer-col-2">
+                    <img src="/images/logo-white-fotor-2023061622224.png">
+                    <p class="ft-p">Our purpose is to make sustainably make the pleasure and of sports accessible to many.</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3 class="footer-heading">Follow Us At</h3>
+                    <ul>
+                        <a href="https://www.linkedin.com/in/muhammad-murtaza-b131191a2/">
+                            <li class="ft">LinkedIn</li>
+                        </a>
+                        <a href="https://github.com/Muhammad-Murtazaa">
+                            <li class="ft">GitHub</li>
+                        </a>
+                        <a href="https://www.facebook.com/MuhammadMurtaza2001">
+                            <li class="ft">Facebook</li>
+                        </a>
+                        <a href="https://www.instagram.com/unofficial_murtaza21/?hl=en">
+                            <li class="ft">Instagram</li>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p>Copyrights 2023 - www.shopificion.com</p>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="/js/cart.js"></script>
+</body>
+
+</html>

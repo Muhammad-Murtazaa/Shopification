@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/product&account.css">
+    <title>Products - Shopification</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <h3 class="Logo"><img src="/images/shopping-cart.png"> Shopification</h3>
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="/templates/index.html">Home</a></li>
+                    <li><a href="/templates/product.html">Products</a></li>
+                    <li><a href="/templates/account.html">Accounts</a></li>
+                    
+                    <li><a href="/templates/contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+            <img src="/images/cart.png" width="30px" height="30px">
+            <img src="/images/menu.png" width="30px" height="30px" class="menu-icon" onclick="menutoggle()">
+        </div>
+
+    </div>
+
+    <!-- All Products -->
+
+    <div class="small-container">
+        <!-- <h2 class="title">Featured Products</h2> -->
+
+        <div class="row row-2">
+            <h2 class="product-heading">All Products</h2>
+            <select>
+                <option>Default Sorting</option>
+                <option>Sort by Price</option>
+                <option>Sort by Popularity</option>
+                <option>Sort by Ratings</option>
+                <option>Sort by Sales</option>
+            </select>
+        </div>
+
+        <div class="row">
+            <div class="col-4">
+                <a href="/templates/productdetails.html"><img src="/images/product-1.jpg"></a>
+                <a href="/templates/productdetails.html"><h4>Red Printed T-Shirt</h4></a>
+                <div class="rating">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star unchecked"></span>
+                </div>
+                <p>$18.00</p>
+            </div>
+            <div class="col-4">
+                <img src="/images/product-2.jpg">
+                <h4>Black soft-sole Gripper</h4>
+                <div class="rating">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star unchecked"></span>
+                </div>
+                <p>$50.00</p>
+            </div>
+            <div class="col-4">
+                <img src="/images/product-3.jpg">
+                <h4>Grey Track Trouser</h4>
+                <div class="rating">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star unchecked"></span>
+                </div>
+                <p>$30.00</p>
+            </div>
+            <div class="col-4">
+                <img src="/images/product-4.jpg">
+                <h4>Navy Blue Printed T-Shirt</h4>
+                <div class="rating">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star unchecked"></span>
+                </div>
+                <p>$20.00</p>
+            </div>
+            <div class="col-4">
+                <img src="/images/product-5.jpg">
+                <h4>Grey Smooth Snickers</h4>
+                <div class="rating">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star unchecked"></span>
+                </div>
+                <p>$75.00</p>
+            </div>
+            <div class="col-4">
+                <img src="/images/product-6.jpg">
+                <h4>Black Tee</h4>
+                <div class="rating">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star unchecked"></span>
+                </div>
+                <p>$20.00</p>
+            </div>
+            <div class="col-4">
+                <img src="/images/product-7.jpg">
+                <h4>Socks<br>(Pack Of 3)</h4>
+                <div class="rating">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star unchecked"></span>
+                </div>
+                <p>$10.00</p>
+            </div>
+            <div class="col-4">
+                <img src="/images/product-8.jpg">
+                <h4>Mens Fossils Black Diamond</h4>
+                <div class="rating">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star unchecked"></span>
+                </div>
+                <p>$110.00</p>
+            </div>
+            <div class="col-4">
+                <img src="/images/product-9.jpg">
+                <h4>Leather Roadster mens Watch</h4>
+                <div class="rating">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star unchecked"></span>
+                </div>
+                <p>$120.00</p>
+            </div>
+            <div class="col-4">
+                <img src="/images/product-10.jpg">
+                <h4>Black n Red Jogs</h4>
+                <div class="rating">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star unchecked"></span>
+                </div>
+                <p>$75.00</p>
+            </div>
+            <div class="col-4">
+                <img src="/images/product-11.jpg">
+                <h4>Grey Comforts</h4>
+                <div class="rating">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star unchecked"></span>
+                </div>
+                <p>$90.00</p>
+            </div>
+            <div class="col-4">
+                <img src="/images/product-12.jpg">
+                <h4>Dark Trouser</h4>
+                <div class="rating">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star unchecked"></span>
+                </div>
+                <p>$40.00</p>
+            </div>
+        </div>
+
+        <div class="page-btn">
+            <span>1</span>
+            <span>2</span>
+            <span>3</span>
+            <span>4 </span>
+            <span>&#8594</span>
+        </div>
+    </div>
+
+    <!-- Footer -->
+
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3 class="footer-heading">For Any QueryEmail at</h3>
+                    <br>
+                    <p class="email">m.murtaza01@hotmail.com</p>
+                </div>
+                <div class="footer-col-2">
+                    <img src="/images/logo-white-fotor-2023061622224.png">
+                    <p>Our purpose is to make sustainably make the pleasure and of sports accessible to many.</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3 class="footer-heading">Follow Us At</h3>
+                    <ul>
+                        <a href="https://www.linkedin.com/in/muhammad-murtaza-b131191a2/">
+                            <li class="ft">LinkedIn</li>
+                        </a>
+                        <a href="https://github.com/Muhammad-Murtazaa">
+                            <li class="ft">GitHub</li>
+                        </a>
+                        <a href="https://www.facebook.com/MuhammadMurtaza2001">
+                            <li class="ft">Facebook</li>
+                        </a>
+                        <a href="https://www.instagram.com/unofficial_murtaza21/?hl=en">
+                            <li class="ft">Instagram</li>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p>Copyrights 2023 - www.shopificion.com</p>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="/js/product.js"></script>
+</body>
+
+</html>
